@@ -29,6 +29,8 @@
     "vite": "^5.4.1"
   },
   "compilerOptions": {
-    "noImplicitAny": false
+    "noImplicitAny": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false
   }
 }
