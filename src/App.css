@@ -1,0 +1,239 @@
+body {
+  overflow: hidden;
+  margin: 0; 
+  background: rgb(5,17,75);
+background: radial-gradient(circle, rgba(5,17,75,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+
+.home-container {
+  height: 100vh; /* Add this line */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgb(5,17,75);
+  background: radial-gradient(circle, rgba(5,17,75,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+
+.background {
+  background-image: url('../images/aaabstract.webp');
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Circulo {
+  height: 130vh;
+  width: 130vw;
+  position: absolute; 
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+ 
+}
+
+.Circulo-inner {
+  background-image: url('../images/uuundulate\ \(2\).svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  transform-origin: center;
+  animation: spin 65s linear infinite;
+
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  font-family: inherit;
+  font-size: 15px;
+}
+
+button.learn-more {
+  font-family: monospace;
+  margin-top: 190%;
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 1.25em 2em;
+  background: #0000008a;
+  border: 2px solid #ffffff;
+  border-radius: 0.75em;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transition: background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+  transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+  
+}
+
+button.learn-more::before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #ffffff00;
+  border-radius: inherit;
+  -webkit-box-shadow: 0 0 0 2px #ffffff, 0 0.625em 0 0 #ffffff;
+  box-shadow: 0 0 0 2px #ffffff, 0 0.625em 0 0 #ffffff;
+  -webkit-transform: translate3d(0, 0.75em, -1em);
+  transform: translate3d(0, 0.75em, -1em);
+  transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
+}
+
+button.learn-more:hover {
+  color: #111;
+  background: #ffffff;
+  -webkit-transform: translate(0, 0.25em);
+  transform: translate(0, 0.25em);
+}
+
+button.learn-more:hover::before {
+  -webkit-box-shadow: 0 0 0 2px #ffffff, 0 0.5em 0 0 #ffffff;
+  box-shadow: 0 0 0 2px #ffffff, 0 0.5em 0 0 #ffffff;
+  -webkit-transform: translate3d(0, 0.5em, -1em);
+  transform: translate3d(0, 0.5em, -1em);
+}
+
+button.learn-more:active {
+  background: #111;
+  -webkit-transform: translate(0em, 0.75em);
+  transform: translate(0em, 0.75em);
+}
+
+button.learn-more:active::before {
+  -webkit-box-shadow: 0 0 0 2px #333, 0 0 #444;
+  box-shadow: 0 0 0 2px #333, 0 0 #444;
+  -webkit-transform: translate3d(0, 0, -1em);
+  transform: translate3d(0, 0, -1em);
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.wrapper {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+
+}
+
+.typing-demo {
+  position: absolute;
+  width: 22ch;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: monospace;
+  font-size: 6em;
+  color: aliceblue;
+  border-right: none; /* Add this line to remove the border */
+}
+
+.typing-demo span {
+  animation: blink 1s infinite;
+  animation-delay: 0.5s;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+
+
+.typing-demo span.blink {
+  animation: none; 
+  
+}
+
+.typing-demo span.blink.complete {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+/* Adicionei essa classe para o container da página */
+.home-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #333;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+/* Título */
+.title {
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+/* Foto */
+.image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+/* Caixa de texto */
+.text-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.text-box p {
+  font-size: 18px;
+  color: #333;
+}
