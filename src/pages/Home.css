@@ -11,7 +11,7 @@ body {
   height: 100vh;
   width: 100vw;
   display: flex;
-  position: relative; 
+  position: relative; /* adicionado */
 }
 
 .container {
@@ -140,10 +140,8 @@ button {
   border: 1vh solid #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   object-fit: cover;
-  margin-top: 11.5%;
-  margin-left: 7%;
+  left: 8%;
   position: absolute;
-  
 }
 
 .FotoPerfil:hover {
@@ -153,13 +151,11 @@ button {
   border: 1vh solid #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   object-fit: cover;
-  margin-top: 11.5%;
-  margin-left: 7%;
   position: absolute;
   transition: 0.5s ease color;
   transform: scale(1.1); 
   transition: 0.5s ease transform;
-  
+  left: 8%;
 }
 
 nav {

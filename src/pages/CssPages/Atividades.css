@@ -1,44 +1,137 @@
 body {
-    overflow: hidden;
-    margin: 0; 
-   
-  }
-
-.Titulo{
-    color: aliceblue;
-    font-family: monospace;
-    font-size: 2.5em;
-    top: 3%;
-    left: 37%;
-    position: absolute;
+  background: rgb(5, 17, 75);
+  background: radial-gradient(circle, rgb(2, 5, 23) 0%, rgba(0, 0, 0, 1) 100%);
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
 }
 
-  .Voltar{
-    position: fixed;
-    top: 1.4em;
-    left: 1.6em;
-    font-family: monospace;
-    color: #000000;
-    text-transform: uppercase;
-    padding: 1em;
-    background: #ffffff;
-    border: 2px solid #ffffff;
-    border-radius: 0.75em;
+.pagina-wrapper {
+  position: relative;
+  height: 100vh;
+  
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background-color: rgb(4, 11, 47); 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(4, 11, 49); 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #000000; 
+}
+
+.Titulo {
+  color: #fff;
+  font-size: 3em;
+  text-align: center; /* centralize o título */
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.Titulo::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  height: 0.02em;
+  background-color: #fff;
+  opacity: 0.5;
+}
+
+.Citacao {
+  color: #fff;
+  font-size: 1em;
+  text-align: center; /* centralize a citação */
+  display: block; /* exiba o texto corretamente */
+  font-style: italic;
+  max-width: 50%;
+  margin: 0 auto; /* centralize o texto */
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.Voltar {
+  position: fixed;
+  top: 1.2em;
+  left: 1.2em;
+  font-size: 1.2em;
+  color: #333;
+  text-transform: uppercase;
+  padding: 0.8em;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+.cardAtividade {
+  background: rgba(255, 255, 255, 0.05); /* frosted glass background */
+  backdrop-filter: blur(15px); /* blur the background */
+  -webkit-backdrop-filter: blur(15px); /* for Safari */
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  padding: 25px;
+  width: auto;
+  margin: 0 auto; /* centralize horizontalmente */
+  margin-top: 5em; /* centralize verticalmente */
+  max-width: 60em; /* limite o tamanho do card */
+  max-height: auto; /* limite o tamanho do card */
+  font-size: 1em;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.1); /* border blends with background */
+}
+
+.cardAtividade::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+  background: rgba(255, 255, 255, 0.05); /* subtle white overlay */
+  border-radius: 15px;
+  pointer-events: none;
+}
+
+.cardAtividade img {
+  width: auto;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 0.6em;
+  position: relative; /* added */
+}
+
+.cardAtividade .tituloAtividade {
+  font-size: 1.35em;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 10px; /* add some space between title and description */
 }
 
 
-.cardAtividade{
-  top: 1em;
-  left: 50%;
-  transform: translateX(-50%);
-  padding: 1em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 35%;
-  z-index: 1000;
-  backdrop-filter: blur(0.6em); 
-  background-color: rgba(255, 255, 255, 0.032); 
-  border: rgba(255, 255, 255, 0.053);
-  border-radius: 5em;
+.cardAtividade .descricaoAtividade {
+  font-size: 1.2em;
+  color: #cecece;
+  margin-top: 15px;
+}
+
+.abrirAtividade {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 0.9em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block; /* adicionado */
+  margin-right: 10px; /* adicionado (opcional) */
+}
+
+.abrirAtividade:hover {
+  background-color: #3e8e41;
 }

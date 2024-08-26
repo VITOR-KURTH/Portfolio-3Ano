@@ -1,23 +1,29 @@
 html,
 body {
-  height: 100%;
-  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden; /* adicionado */
   background: rgb(5,17,75);
   background: radial-gradient(circle, rgb(2, 5, 23) 0%, rgba(0,0,0,1) 100%);
 }
 
 .background-home {
   background-size: cover;
-  height: 100vh;
-  width: 100vw;
+  height: 100vh; /* adicionado */
+  width: 100vw; /* adicionado */
   display: flex;
   position: relative; 
+  overflow: hidden;
 }
 
 .container {
-  position: relative;
   height: 100vh;
   width: 100vw;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -97,6 +103,7 @@ nav a:hover {
   body {
     display: grid;
     place-items: center;
+    overflow: hidden;
   }
   
   /* Componentes */
