@@ -1,10 +1,12 @@
+import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../CssPages/Atividades.css';
 import Meme from '../imagensPages/ME RECUSO A ACREDITAR QUE VIM DISSO!.png';
 import Resistores from '../imagensPages/Cópia de Atividade prática resistores.pdf';
 import Revisao from '../imagensPages/Imagem do WhatsApp de 2024-04-04 à(s) 10.55.49_631aba2e.jpg';
+import Mapa from '../imagensPages/mapaMental.png';
 
-const CanvaEmbed = () => {
+const CanvaEmbed1 = () => {
   return (
     <div
       style={{
@@ -34,7 +36,114 @@ const CanvaEmbed = () => {
           margin: 0,
         }}
         src="https://www.canva.com/design/DAGAtsW06KI/KtnvV-_JUdsJp1e_rmuPFw/view?embed"
-      
+        allow="fullscreen"
+      />
+    </div>
+  );
+};
+
+const CanvaEmbed2 = () => {
+  return (
+    <div
+      style={{
+        position: 'relative',
+        width: '100%',
+        height: 0,
+        paddingTop: '56.2500%',
+        paddingBottom: 0,
+        boxShadow: '0 2px 8px 0 rgba(63,69,81,0.16)',
+        marginTop: '1.6em',
+        marginBottom: '0.9em',
+        overflow: 'hidden',
+        borderRadius: '8px',
+        willChange: 'transform',
+      }}
+    >
+      <iframe
+        loading="lazy"
+        style={{
+          position: 'absolute',
+          width: '100%',
+          height: '100%',
+          top: 0,
+          left: 0,
+          border: 'none',
+          padding: 0,
+          margin: 0,
+        }}
+        src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGGnvJ0K38&#x2F;QrKgZkntSnlZXLJy0qNrig&#x2F;view?embed"
+        allow="fullscreen"
+      />
+    </div>
+  );
+};
+
+const CanvaEmbed3 = () => {
+  return (
+    <div
+      style={{
+        position: 'relative',
+        width: '100%',
+        height: 0,
+        paddingTop: '56.2500%',
+        paddingBottom: 0,
+        boxShadow: '0 2px 8px 0 rgba(63,69,81,0.16)',
+        marginTop: '1.6em',
+        marginBottom: '0.9em',
+        overflow: 'hidden',
+        borderRadius: '8px',
+        willChange: 'transform',
+      }}
+    >
+      <iframe
+        loading="lazy"
+        style={{
+          position: 'absolute',
+          width: '100%',
+          height: '100%',
+          top: 0,
+          left: 0,
+          border: 'none',
+          padding: 0,
+          margin: 0,
+        }}
+        src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGJ5hICGUU&#x2F;vzviK8jX-1tB5awX9dseZw&#x2F;view?embed"
+        allow="fullscreen"
+      />
+    </div>
+  );
+};
+
+const CanvaEmbed4 = () => {
+  return (
+    <div
+      style={{
+        position: 'relative',
+        width: '100%',
+        height: 0,
+        paddingTop: '56.2500%',
+        paddingBottom: 0,
+        boxShadow: '0 2px 8px 0 rgba(63,69,81,0.16)',
+        marginTop: '1.6em',
+        marginBottom: '0.9em',
+        overflow: 'hidden',
+        borderRadius: '8px',
+        willChange: 'transform',
+      }}
+    >
+      <iframe
+        loading="lazy"
+        style={{
+          position: 'absolute',
+          width: '100%',
+          height: '100%',
+          top: 0,
+          left: 0,
+          border: 'none',
+          padding: 0,
+          margin: 0,
+        }}
+        src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGH7hYF7Ec&#x2F;EaX6uh23WuB4QKQj6-srUQ&#x2F;view?embed"
         allow="fullscreen"
       />
     </div>
@@ -43,49 +152,98 @@ const CanvaEmbed = () => {
 
 const Ciencias = () => {
   const navigate = useNavigate();
+  const [trimestre, setTrimestre] = useState(1); 
 
+  const renderAtividades = () => {
+    if (trimestre === 1) {
+      return (
+        <>
+          <div className="cardAtividade">
+            <img className="FileAtividade" src={Meme} alt="Meme Evolução" />
+            <h2 className="tituloAtividade">Meme Evolução - População de coelhos</h2>
+            <p className="descricaoAtividade">Para esta atividade, eu tive que simular o comportamento de uma população de coelhos e do ambiente em um simulador e anotar tudo o que observei conforme mudava as características dos coelhos e do ambiente, depois tive que criar um meme com o tema de ciências</p><p className="descricaoAtividade">Opinião: Eu faltei na aula porque estava doente mas fazer a atividade de simulação e o meme foram bem legais de fazer.</p><p className='descricaoAtividade'>Habilidades: C2 - H11</p>
+            <button className="abrirAtividade" onClick={() => window.open(Meme, '_blank')}>Meme</button>
+            <button className="abrirAtividade" onClick={() => window.open('https://docs.google.com/document/d/1SbkMefp3NLv3uRqhGEzYQNRSsLc0BWTsVB_ci2P-Wa4/edit?usp=sharing', '_blank')}>Simulação</button>
+          </div>
+          <div className="cardAtividade">
+            <embed className="FileAtividade" src={Resistores} style={{ width: '80%', height: '80%' }} />
+            <h2 className="tituloAtividade">Prática com resistores</h2>
+            <p className="descricaoAtividade">Na aula, fizemos uma atividade avaliativa em grupos para construir um circuito com resistores para acender leds com uma pilha, seguindo as etapas e observando os resultados.</p><p className="descricaoAtividade">opinião: Essa prática com resistores foi uma atividade muito legal, aplicar os passos para desenvolver o circuito foi desafiador já que não tinhamos a manha, tanto que acabei queimando o meu dedo, mas terminar o circuito e ver ele funcionar, mesmo que não fosse na primeira tentativa ainda sim foi muito bom.</p><p className='descricaoAtividade'>Habilidades: C2 - H6, C6 - H34
+            </p>
+            <button className="abrirAtividade" onClick={() => window.open(Resistores, '_blank')}>Resistores</button>
+          </div>
+          <div className="cardAtividade">
+            <img className="FileAtividade" src={Revisao} style={{ width: '40%', height: '40%' }} />
+            <h2 className="tituloAtividade">Revisão orgânica</h2>
+            <p className="descricaoAtividade">Nessa aula tivemos apenas que ver uma breve apresentação e pesquisar sobre assuntos variados de orgânica e anotar no caderno ou em um documento.</p><p className="descricaoAtividade">Opinião: Foi bom fazer essa revisão já que me ajudou com as provas já que eu tinha uma consulta no caderno.</p><p className='descricaoAtividade'>Habilidades: C1 - H3, H4, H5</p>
+            <button className="abrirAtividade" onClick={() => window.open(Revisao, '_blank')}>Revisão orgânica</button>
+          </div>
+          <div className="cardAtividade">
+            <CanvaEmbed1 />
+            <h2 className="tituloAtividade">Potência e Energia Elétrica</h2>
+            <p className="descricaoAtividade">Na atividade, em duplas tivemos que fazer uma apresentação de uma tabela de gastos e de como reduzir gastos de energia</p><p className="descricaoAtividade">Opinião: Essa atividade me ajudou a entender melhor o consumo de energia e me apresentou possiveis soluções para esse problema, foi bem interessante entender melhor esse tema.</p><p className='descricaoAtividade'>Habilidades: C2 - H6, C6 - H34</p>
+            <button className="abrirAtividade" onClick={() => window.open('https://www.canva.com/design/DAGAtsW06KI/UZ34dVqiHYT8xlKFlxdLLw/edit?utm_content=DAGAtsW06KI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton')}>Apresentação</button>
+          </div>
+        </>
+      );
+    } else if (trimestre === 2) {
+      return (
+        <>
+           <div className="cardAtividade">
+           <CanvaEmbed2 />
+            <h2 className="tituloAtividade">Revista Relações Ecologicas</h2>
+            <p className="descricaoAtividade">Na atividade tivemos que escrever uma revista sobre relações ecologicas, explicando cada uma e colocando também um passatempo para se parecer mais com uma revista</p><p className="descricaoAtividade">Opinião: Montar a revista e pensar como organizar o conteudo bem interessante.</p><p className='descricaoAtividade'>Habilidades: C3 - H15, H18</p>
+            <button className="abrirAtividade" onClick={() => window.open('https://www.canva.com/design/DAGGnvJ0K38/QrKgZkntSnlZXLJy0qNrig/view')}>Revista</button>
+          </div>
+          <div className="cardAtividade">
+           <CanvaEmbed3 />
+            <h2 className="tituloAtividade">Cartaz responsável</h2>
+            <p className="descricaoAtividade">Começamos a aula com uma apresentação de consientização do plastico, como podemos reciclar e reutiliza-lo, depois em grupo fizemos um cartaz sobre a consientização</p><p className="descricaoAtividade">Opinião: Elaborar o cartaz foi legal porque tivemos que pensar em algo que inpactasse as pessoas que fossem ler, então tivemos que pensar em várias frases e elaborar o cartaz em cima delas.</p><p className='descricaoAtividade'>Habilidades: C3 - H15, H18</p>
+            <button className="abrirAtividade" onClick={() => window.open('https://www.canva.com/design/DAGJ5hICGUU/Khmxj99OoTHG3MD3zFyYqw/edit?utm_content=DAGJ5hICGUU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton')}>Cartaz</button>
+          </div>
+          <div className="cardAtividade">
+           <CanvaEmbed4 />
+            <h2 className="tituloAtividade">Auroras Polares</h2>
+            <p className="descricaoAtividade">Durante a aula nós aprendemos um pouco sobre imãs e magnetismo, além de fazer a atividade, também vimos como funciona na prática, com uma caixa com pó magnético e imãs.</p><p className="descricaoAtividade">Opinião: Esse cartaz também foi bem legal de fazer, já que é um conteúdo muito interessante.</p><p className='descricaoAtividade'>Habilidades: C3 - H15, H18</p>
+            <button className="abrirAtividade" onClick={() => window.open('https://www.canva.com/design/DAGJ5hICGUU/Khmxj99OoTHG3MD3zFyYqw/edit?utm_content=DAGJ5hICGUU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton')}>Cartaz</button>
+          </div>
+          <div className="cardAtividade">
+          <img className="FileAtividade" src={Mapa} style={{ width: '100%', height: '100%' }} />
+            <h2 className="tituloAtividade">Mapa mental circuitos</h2>
+            <p className="descricaoAtividade">Durante a aula nós aprendemos um pouco sobre imãs e magnetismo, além de fazer a atividade, também vimos como funciona na prática, com uma caixa com pó magnético e imãs.</p><p className="descricaoAtividade">Opinião: Mesmo que a aula tenha sido atrapalhada por alguns indivíduos, não tive problemas em desenvolver a atividade posteriormente.</p><p className='descricaoAtividade'>Habilidades: C2 - H11</p>
+            <button className="abrirAtividade" onClick={() => window.open(Mapa)}>Mapa mental</button>
+          </div>
+        </>
+      );
+    } else if (trimestre === 3) {
+      return (
+        <>
+        
+        </>
+      );
+    }
+  };
 
   return (
     <div>
       <div className="pagina-wrapper">
+        <button className='Voltar' onClick={() => navigate('/areas', { replace: true })}>Voltar</button>
+        <h1 className='Titulo'>Ciências da natureza</h1>
+        <h3 className='Citacao'>"A imaginação é mais importante que o conhecimento. Pois o conhecimento é limitado, ao passo que a imaginação abrange o mundo inteiro, estimulando o progresso, dando origem à evolução." Albert Einstein</h3>
+        
+        {/* Botões para selecionar o trimestre */}
+        <div className='botaoTrimestre'>
+          <button className={`trimestre-btn ${trimestre === 1 ? 'active' : ''}`} onClick={() => setTrimestre(1)}>1º Trimestre</button>
+          <button className={`trimestre-btn ${trimestre === 2 ? 'active' : ''}`} onClick={() => setTrimestre(2)}>2º Trimestre</button>
+          <button className={`trimestre-btn ${trimestre === 3 ? 'active' : ''}`} onClick={() => setTrimestre(3)}>3º Trimestre</button>
+        </div>
 
-      <button className='Voltar' onClick={() => navigate('/areas', { replace: true })}>Voltar</button>
-      <h1 className='Titulo'>Ciências da natureza</h1>
-      <h3 className='Citacao'>"A imaginação é mais importante que o conhecimento. Pois o conhecimento é limitado, ao passo que a imaginação abrange o mundo inteiro, estimulando o progresso, dando origem à evolução."  ⠀
-      Albert Einstein</h3>
-      <div className='botaoTrimestre'></div>
-
-      <div className="cardAtividade">
-        <img className="FileAtividade" src={Meme} alt="Meme Evolução" />
-        <h2 className="tituloAtividade">Meme Evolução - População de coelhos</h2>
-        <p className="descricaoAtividade">Para esta atividade, eu tive que simular o comportamento de uma população de coelhos e do ambiente em um programa e anotar tudo o que observei comforme ia mudando as características, depois tive criar um meme com o tema de ciências</p><p className="descricaoAtividade">Habilidades: C2 - H11</p><p className="descricaoAtividade">Opinião: Apesar de ter perdido a explicação do professor por estar em casa doente, usar o simulador foi um jeito legal de conseguir observar como certas populações se comportam, fazer o meme também foi uma ideia criativa de atividade</p>
-        <button className="abrirAtividade" onClick={() => window.open(Meme, '_blank')}>Meme</button>
-        <button className="abrirAtividade" onClick={() => window.open('https://docs.google.com/document/d/1SbkMefp3NLv3uRqhGEzYQNRSsLc0BWTsVB_ci2P-Wa4/edit?usp=sharing', '_blank')}>Simulação</button>
+        {/* Renderiza as atividades do trimestre selecionado */}
+        {renderAtividades()}
       </div>
-      <div className="cardAtividade">
-        <embed className="FileAtividade" src={Resistores} style={{ width: '80%', height: '80%' }} />
-        <h2 className="tituloAtividade">Prática com resistores</h2>
-        <p className="descricaoAtividade">Na aula, fizemos uma atividade avaliativa em grupos para construir um circuito com resistores para acender leds com uma pilha</p><p className="descricaoAtividade">Habilidades: C2 - H6, C6 - H34</p><p className="descricaoAtividade">Opinião: Fazer todo o circuito e observar as voltagens com o ampímetro foi muito legal, fazer essa prática foi uma das melhores atividades do ano, até eu queimar meu dedo...</p>
- 
-        <button className="abrirAtividade" onClick={() => window.open(Resistores, '_blank')}>Resistores</button>
-      </div>
-      <div className="cardAtividade">
-      <img className="FileAtividade" src={Revisao} style={{ width: '40%', height: '40%' }} />
-        <h2 className="tituloAtividade">Revisão orgânica</h2>
-        <p className="descricaoAtividade">Nessa aula tivemos apenas ver uma breve apresentação e pesquisar sobre assuntos variados de orgânica e anotar no caderno ou em um documento</p><p className="descricaoAtividade">Habilidades: C1 - H3, H4, H5</p><p className="descricaoAtividade">Opinião: A apresentação foi boa porque foi breve mas com bom conteúdo e optar fazer a revisão no caderno foi uma boa escolha porque assim tinha consulta para a prova</p>
- 
-        <button className="abrirAtividade" onClick={() => window.open(Revisao, '_blank')}>Revisão orgânica</button>
-      </div>
-      <div className="cardAtividade">
-      <CanvaEmbed />
-        <h2 className="tituloAtividade">Revisão orgânica</h2>
-        <p className="descricaoAtividade">Nessa aula tivemos apenas ver uma breve apresentação e pesquisar sobre assuntos variados de orgânica e anotar no caderno ou em um documento</p><p className="descricaoAtividade">Habilidades: C1 - H3, H4, H5</p><p className="descricaoAtividade">Opinião: A apresentação foi boa porque foi breve mas com bom conteúdo e optar fazer a revisão no caderno foi uma boa escolha porque assim tinha consulta para a prova</p>
- 
-        <button className="abrirAtividade" onClick={() => window.open(Revisao, '_blank')}>Revisão orgânica</button>
-      </div>
-    </div>
     </div>
   );
 };
 
 export default Ciencias;
+

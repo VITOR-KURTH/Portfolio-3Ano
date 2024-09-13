@@ -85,6 +85,7 @@ body {
   font-size: 1em;
   color: #fff;
   border: 1px solid rgba(255, 255, 255, 0.1); /* border blends with background */
+  margin-bottom: 0.5em;
 }
 
 .cardAtividade::before {
@@ -134,4 +135,28 @@ body {
 
 .abrirAtividade:hover {
   background-color: #3e8e41;
+}
+
+.botaoTrimestre {
+  text-align: center;
+  margin-top: 2%;
+}
+
+.trimestre-btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.trimestre-btn.active {
+  background-color: #4CAF50; /* Altere essa cor para a que deseja para o botão ativo */
+}
+
+.trimestre-btn:hover {
+  background-color: #555;
 }
