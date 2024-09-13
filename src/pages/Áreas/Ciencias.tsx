@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../CssPages/Atividades.css';
 import Meme from '../imagensPages/ME RECUSO A ACREDITAR QUE VIM DISSO!.png';
