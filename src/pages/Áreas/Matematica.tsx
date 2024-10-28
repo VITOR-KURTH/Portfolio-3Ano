@@ -64,7 +64,13 @@ const Matematica = () => {
            <CanvaEmbed1/>
             <h2 className="tituloAtividade">Banco do G</h2>
             <p className="descricaoAtividade"> Na atividade nós formamos grupos para recriar o famoso jogo Banco Imobiliário em uma versão de Florianópolis, recriando todos os elementos do jogo pensando na ilha de Florianópolis.</p><p className="descricaoAtividade">Opinião: Essa foi uma das atividades mais legais de fazer, foi bem interessante pensar em tudo que define Florianópolis e colocar no jogo, por isso gostei bastante!</p><p className='descricaoAtividade'>Habilidades: C3 - H15, H18</p>
-            <button className="abrirAtividade" onClick={() => window.open('https://www.canva.com/design/DAGGnvJ0K38/QrKgZkntSnlZXLJy0qNrig/view')}>Revista</button>
+            <button className="abrirAtividade" onClick={() => window.open('https://www.canva.com/design/DAGKMSe26pA/Xosj60UxceTBpDokvQQgWw/edit?utm_content=DAGKMSe26pA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton')}>Banco do G</button>
+          </div>
+          <div className="cardAtividade">
+          <iframe src="https://docs.google.com/document/d/e/2PACX-1vRgGOXV_udx8ard0e67WzO56-x9w7RPw3gfoETClJLF42frav3P2u3SuV1qaEUCLe7M5mF3OB76wV9t/pub?embedded=true" width={730} height={300}></iframe>
+            <h2 className="tituloAtividade">Filme: Quebrando a banca</h2>
+            <p className="descricaoAtividade">Para essa atividade nossa turma assistiu no auditório o filme quebrando a banca, um filme sobre o famoso jogo 21, depois de assistir o filme nós tinhamos que responder umas perguntas sobre o filme.</p><p className="descricaoAtividade">Opinião: O filme era bem interresante e analisar ele também, já que ele abordava vários conceitos matemáticos muito legais.</p><p className='descricaoAtividade'>Habilidades: C5 - H31 H32</p>
+            <button className="abrirAtividade" onClick={() => window.open('https://docs.google.com/document/d/1H83lesjKrqMdHWbUydaJSHiOjlAUpotYqAS_ckndcmY/edit?usp=sharing')}>Docs. Filme</button>
           </div>
          
         </>

@@ -75,9 +75,9 @@ function App() {
   return (
     
     <div className="background">
-     <div className="Circulo">
+    
   <div className="Circulo-inner"></div>
-</div>
+
       <div className="wrapper">
         <div className="typing-demo">
           {text}
