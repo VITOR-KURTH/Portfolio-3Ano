@@ -1,0 +1,130 @@
+.codespaces-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    gap: 20px; /* Espaçamento entre os terminais na mesma linha */
+    justify-content: center;
+    margin-bottom: 20px; /* Espaço entre as linhas */
+}
+
+.terminal-loader {
+    width: 400px; /* Largura fixa para garantir que todos os terminais sejam do mesmo tamanho */
+    height: 200px;
+    background: #1c1c1c;
+    border: 1px solid #ffffff3e;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+}
+
+.terminal-loader:hover {
+    transform: translateY(-10px);
+}
+
+
+
+
+.terminal-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #343434;
+    padding: 6px;
+}
+
+.terminal-controls {
+    position: absolute;
+    left: 10px;
+    display: flex;
+    gap: 7px;
+}
+
+
+
+.terminal-title {
+    color: #eeeeeec1;
+    font-weight: bold;
+}
+
+.contentCode {
+    padding: 10px;
+    text-align: center;
+}
+
+.navigate-button {
+    margin-top: 20px;
+    padding: 8px 16px;
+    font-size: 16px;
+    color: rgb(0, 196, 0);
+    background-color: rgba(0, 196, 0, 0.138);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.navigate-button:hover {
+    background-color: #0056b3;
+}
+
+.text {
+    color: rgb(0, 196, 0);
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.terminal-controls {
+    position: absolute;
+    left: 10px;
+    display: flex;
+    gap: 7px;
+}
+
+.control {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #777;
+}
+
+.control.close {
+    background-color: #e33;
+}
+
+.control.minimize {
+    background-color: #ee0;
+}
+
+.control.maximize {
+    background-color: #0b0;
+}
+
+
+/* CSS para coloração de código */
+.text .keyword {
+    color: #569cd6;
+    font-weight: bold;
+}
+
+.text .variable {
+    color: #4ec9b0;
+}
+
+.text .string {
+    color: #ce9178;
+}
+
+.text .function {
+    color: #dcdcaa;
+}
+
+.text .type {
+    color: #b5cea8;
+}
