@@ -8,6 +8,10 @@ import Ciencias from './pages/Áreas/Ciencias';
 import Matematica from './pages/Áreas/Matematica';
 import Humanas from './pages/Áreas/Humanas';
 import Linguagens from './pages/Áreas/Linguagens';
+import Banco from './Técnico/BancoDeDados/Banco';
+import Desenvolvimento from './Técnico/Desenvolvimento/Desenvolvimento';
+import Modelagem from './Técnico/Modelagem/Modelagem';
+import Implantação from './Técnico/Implantação/Implantação';
 
 const AppRouter = () => {
   return (
@@ -21,7 +25,10 @@ const AppRouter = () => {
         <Route path="/ciencias" element={<Ciencias />} />
         <Route path="/matematica" element={<Matematica />} />
         <Route path="/humanas" element={<Humanas />} />
-        <Route path="/linguagens" element={<Linguagens />} />
+        <Route path="/Banco" element={<Banco />} />
+        <Route path="/Desenvolvimento" element={<Desenvolvimento />} />
+        <Route path="/Modelagem" element={<Modelagem />} />
+        <Route path="/Implantação" element={<Implantação />} />
       </Routes>
     </BrowserRouter>
   );

@@ -1,7 +1,7 @@
-import './Home.css';
+import './CssPages/Home.css';
 import imagem from '../pages/imagensPages/FotoPerfil.jpg';
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import Navbar from '../Components/Navbar/Navbar';
 
 interface TecnologiaProps {
   nome: string;
@@ -97,13 +97,7 @@ function Home() {
       <div className="background-image">
 
       </div>
-      <nav>
-        <Link to="/home">Home</Link>
-        <Link to="/areas">Áreas</Link>
-        <Link to="/tecnico">Técnico</Link>
-        <Link to="/ppe">PPE</Link>
-        <div id="indicator"></div>
-      </nav>
+      <Navbar/>
       <img className="FotoPerfil" src={imagem} />
       <div className='TextoApresentacao'>
         {showHabilidades ? habilidadesText : (

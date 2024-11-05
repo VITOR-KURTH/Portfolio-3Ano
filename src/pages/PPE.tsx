@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import Navbar from '../Components/Navbar/Navbar';
 
 
 const PPE = () => {
@@ -8,13 +9,7 @@ const PPE = () => {
       <div className="background-image">
 
       </div>
-      <nav>
-        <Link to="/home">Home</Link>
-        <Link to="/areas">Áreas</Link>
-        <Link to="/tecnico">Técnico</Link>
-        <Link to="/ppe">PPE</Link>
-        <div id="indicator"></div>
-      </nav>
+     <Navbar/>
       </div>
    
   );

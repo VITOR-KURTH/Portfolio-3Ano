@@ -76,7 +76,6 @@ function App() {
     
     <div className="background">
     
-  <div className="Circulo-inner"></div>
 
       <div className="wrapper">
         <div className="typing-demo">

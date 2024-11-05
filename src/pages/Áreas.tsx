@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import './CssPages/Áreas.css';
+import Navbar from '../Components/Navbar/Navbar';
 
 
 interface Card {
@@ -33,15 +34,8 @@ function card(title: string, copy: string, button: string, path: string) {
 
 const Areas = () => {
   return (
-    
     <div className="container">
-      <nav>
-        <Link to="/home">Home</Link>
-        <Link to="/areas">Áreas</Link>
-        <Link to="/tecnico">Técnico</Link>
-        <Link to="/ppe">PPE</Link>
-        <div id="indicator"></div>
-      </nav>
+     <Navbar/>
       <h1 className='titulo'>Áreas do conhecimento</h1>
       <main className="page-content">
         {cards.map((cardItem) => card(cardItem.title, cardItem.copy, cardItem.button, cardItem.path))}
