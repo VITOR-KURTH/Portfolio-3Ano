@@ -39,6 +39,42 @@ const CanvaEmbed1 = () => {
   );
 };
 
+const CanvaEmbed2 = () => {
+  return (
+    <div
+      style={{
+        position: 'relative',
+        width: '100%',
+        height: 0,
+        paddingTop: '56.2500%',
+        paddingBottom: 0,
+        boxShadow: '0 2px 8px 0 rgba(63,69,81,0.16)',
+        marginTop: '1.6em',
+        marginBottom: '0.9em',
+        overflow: 'hidden',
+        borderRadius: '8px',
+        willChange: 'transform',
+      }}
+    >
+      <iframe
+        loading="lazy"
+        style={{
+          position: 'absolute',
+          width: '100%',
+          height: '100%',
+          top: 0,
+          left: 0,
+          border: 'none',
+          padding: 0,
+          margin: 0,
+        }}
+        src="https://www.canva.com/design/DAGVsvdACWI/vnQqvrJH4LOh1cWjllOfuw/view?embed"
+        allow="fullscreen"
+      />
+    </div>
+  );
+};
+
 
 const Matematica = () => {
   const navigate = useNavigate();
@@ -78,7 +114,13 @@ const Matematica = () => {
     } else if (trimestre === 3) {
       return (
         <>
-        
+        <div className="cardAtividade">
+           <CanvaEmbed2/>
+            <h2 className="tituloAtividade">Poliedros de Platão</h2>
+            <p className="descricaoAtividade">Na aula estudamos e preparamos uma apresentação sobre os 5 poliedros de platão, explicando suas popriedades e recriando um dos poliedros em 3D.</p><p className="descricaoAtividade">Opinião: Foi legal entender melhor cada um dos poliedros e apresentar para a turma.</p><p className='descricaoAtividade'></p>
+            <button className="abrirAtividade" onClick={() => window.open('https://www.canva.com/design/DAGKMSe26pA/Xosj60UxceTBpDokvQQgWw/edit?utm_content=DAGKMSe26pA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton')}>apresentação</button>
+          </div>
+          
         </>
       );
     }

@@ -150,6 +150,42 @@ const CanvaEmbed4 = () => {
   );
 };
 
+const CanvaEmbed5 = () => {
+  return (
+    <div
+      style={{
+        position: 'relative',
+        width: '100%',
+        height: 0,
+        paddingTop: '56.2500%',
+        paddingBottom: 0,
+        boxShadow: '0 2px 8px 0 rgba(63,69,81,0.16)',
+        marginTop: '1.6em',
+        marginBottom: '0.9em',
+        overflow: 'hidden',
+        borderRadius: '8px',
+        willChange: 'transform',
+      }}
+    >
+      <iframe
+        loading="lazy"
+        style={{
+          position: 'absolute',
+          width: '100%',
+          height: '100%',
+          top: 0,
+          left: 0,
+          border: 'none',
+          padding: 0,
+          margin: 0,
+        }}
+        src="https://www.canva.com/design/DAGQdZxhyes/9NyaM3Xz7ahFuQxI2VkUZg/view?embed"
+        allow="fullscreen"
+      />
+    </div>
+  );
+};
+
 const Ciencias = () => {
   const navigate = useNavigate();
   const [trimestre, setTrimestre] = useState(1); 
@@ -218,11 +254,24 @@ const Ciencias = () => {
     } else if (trimestre === 3) {
       return (
         <>
-        
+        <div className="cardAtividade">
+            <CanvaEmbed5 />
+            <h2 className="tituloAtividade">Desequilibrios ambientais</h2><p className="descricaoAtividade">Na aula pesquisamos sobre os desastres ambientais, aprofundando mais em gestão de residuos sólidos</p>
+            <p className="descricaoAtividade"></p><p className="descricaoAtividade">Opinião: Foi interessante entender cada problema de uma forma mais aprofundanda.</p><p className='descricaoAtividade'>Habilidades: C5- H27, H28</p>
+            <button className="abrirAtividade" onClick={() => window.open('https://www.canva.com/design/DAGQdZxhyes/jZLFE1QCRy6KdKPTHSvfpQ/edit?utm_content=DAGQdZxhyes&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton')}>Apresentação</button>
+          </div>
+
+          <div className="cardAtividade">
+            <CanvaEmbed5 />
+            <h2 className="tituloAtividade">Desequilibrios ambientais</h2><p className="descricaoAtividade">Na aula pesquisamos sobre os desastres ambientais, aprofundando mais em gestão de residuos sólidos</p>
+            <p className="descricaoAtividade"></p><p className="descricaoAtividade">Opinião: Foi interessante entender cada problema de uma forma mais aprofundanda.</p><p className='descricaoAtividade'>Habilidades: C5- H27, H28</p>
+            <button className="abrirAtividade" onClick={() => window.open('https://www.canva.com/design/DAGAtsW06KI/UZ34dVqiHYT8xlKFlxdLLw/edit?utm_content=DAGAtsW06KI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton')}>Apresentação</button>
+          </div>
         </>
       );
     }
   };
+
 
   return (
     <div>
