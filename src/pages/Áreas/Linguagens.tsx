@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import '../CssPages/Atividades.css';
 import Post from '../imagensPages/Simple-past.jpg';
 import Redacao from '../imagensPages/Redações enviadas.pdf'
+import Redacao2 from '../imagensPages/Redações enviadas2.pdf'
 
 const CanvaEmbed1 = () => {
   return (
@@ -102,7 +103,7 @@ const Linguagens = () => {
           </div>
 
           <div className="cardAtividade">
-            <img className="FileAtividade" src={Post} alt="Simple past" width={500} height={600}/>
+            <img className="FileAtividade" src={Post} alt="Simple past"  style={{ width: '80%', height: '80%' }}/>
             <h2 className="tituloAtividade">Simple Past</h2>
             <p className="descricaoAtividade">Em grupos tivemos que desenvolver um cartaz de poste de instagram em ingles a partir de uma foto.</p><p className="descricaoAtividade">Opinião: Foi uma atividade bem legal de fazer, já que tivemos que pensar em uma descrição para a foto só observando ela.</p><p className='descricaoAtividade'>Habilidades: H11, H25, H10 e H24</p>
             <button className="abrirAtividade" onClick={() => window.open(Post, '_blank')}>Post</button>
@@ -124,7 +125,13 @@ const Linguagens = () => {
     } else if (trimestre === 3) {
       return (
         <>
-        
+         <div className="cardAtividade">
+            <embed className="FileAtividade" src={Redacao2} style={{ width: '700px', height: '400px' }} />
+            <h2 className="tituloAtividade">Redação online</h2>
+            <p className="descricaoAtividade"> Tivemos que realizar uma redação com o tema: Medidas para combater a má alimentação entre os jovens no Brasil.</p><p className="descricaoAtividade">opinião: Eu não tinha um repertorio muito bom mas me ajudou na redação do ENEM.</p><p className='descricaoAtividade'>
+            </p>
+            <button className="abrirAtividade" onClick={() => window.open(Redacao, '_blank')}>Redação</button>
+          </div>
         </>
       );
     }

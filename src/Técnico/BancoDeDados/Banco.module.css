@@ -1,0 +1,180 @@
+body {
+    background: rgb(5, 17, 75);
+    background: radial-gradient(circle, rgb(2, 5, 23) 0%, rgba(0, 0, 0, 1) 100%);
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+  
+    background: #000000;
+    --gap: 5em;
+    --line: 1px;
+    --color: rgba(255, 255, 255, 0.2);
+  
+    background-image: linear-gradient(
+        -90deg,
+        transparent calc(var(--gap) - var(--line)),
+        var(--color) calc(var(--gap) - var(--line) + 1px),
+        var(--color) var(--gap)
+      ),
+      linear-gradient(
+        0deg,
+        transparent calc(var(--gap) - var(--line)),
+        var(--color) calc(var(--gap) - var(--line) + 1px),
+        var(--color) var(--gap)
+      );
+    background-size: var(--gap) var(--gap);
+  }
+  
+  .pagina-wrapper {
+    position: relative;
+    height: 100vh;
+    
+  }
+  
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(255, 255, 255); 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255); 
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #000000; 
+  }
+  
+  .Titulo {
+    color: #fff;
+    font-size: 3em;
+    text-align: center; /* centralize o título */
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .Titulo::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    height: 0.02em;
+    background-color: #fff;
+    opacity: 0.5;
+  }
+  
+  
+  .Voltar {
+    position: fixed;
+    top: 1.2em;
+    left: 1.2em;
+    font-size: 1.2em;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 0.8em;
+    background: rgb(73, 73, 73);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 0.5em;
+    cursor: pointer;
+  }
+  
+  .cardAtividade {
+    background: rgba(255, 255, 255, 0.05); /* frosted glass background */
+    backdrop-filter: blur(15px); /* blur the background */
+    -webkit-backdrop-filter: blur(15px); /* for Safari */
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    padding: 25px;
+    width: auto;
+    margin: 0 auto; /* centralize horizontalmente */
+    margin-top: 5em; /* centralize verticalmente */
+    max-width: 60em; /* limite o tamanho do card */
+    max-height: auto; /* limite o tamanho do card */
+    font-size: 1em;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.1); /* border blends with background */
+    margin-bottom: 0.5em;
+  }
+  
+  .cardAtividade::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+    background: rgba(255, 255, 255, 0.05); /* subtle white overlay */
+    border-radius: 15px;
+    pointer-events: none;
+  }
+  
+  .cardAtividade img {
+    width: auto;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 0.6em;
+    position: relative; /* added */
+  }
+  
+  .cardAtividade .tituloAtividade {
+    font-size: 1.35em;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px; /* add some space between title and description */
+  }
+  
+  
+  .cardAtividade .descricaoAtividade {
+    font-size: 1.2em;
+    color: #cecece;
+    margin-top: 15px;
+  }
+  
+  .abrirAtividade {
+    background-color: #ffffff; /* Fundo branco inicial */
+    color: #000000; /* Texto preto inicial */
+    padding: 1em 1.6em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Suaviza a transição */
+  }
+  
+  .abrirAtividade:hover {
+    color: #ffffff;
+    background: rgb(73, 73, 73);
+      border: 1px solid rgb(255, 255, 255);
+  }
+  
+  
+  .botaoTrimestre {
+    text-align: center;
+    margin-top: 2%;
+  }
+  
+  .trimestre-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.2em;
+  }
+  
+  .trimestre-btn.active {
+    background-color: #ffffff; 
+    color: #000000;
+  }
+  
+  .trimestre-btn:hover {
+    background-color: #555;
+  }
+  
+  

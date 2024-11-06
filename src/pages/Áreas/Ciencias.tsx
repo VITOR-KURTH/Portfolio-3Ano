@@ -186,6 +186,116 @@ const CanvaEmbed5 = () => {
   );
 };
 
+const CanvaEmbed6 = () => {
+  return (
+    <div
+      style={{
+        position: 'relative',
+        width: '100%',
+        height: 0,
+        paddingTop: '56.2500%',
+        paddingBottom: 0,
+        boxShadow: '0 2px 8px 0 rgba(63,69,81,0.16)',
+        marginTop: '1.6em',
+        marginBottom: '0.9em',
+        overflow: 'hidden',
+        borderRadius: '8px',
+        willChange: 'transform',
+      }}
+    >
+      <iframe
+        loading="lazy"
+        style={{
+          position: 'absolute',
+          width: '100%',
+          height: '100%',
+          top: 0,
+          left: 0,
+          border: 'none',
+          padding: 0,
+          margin: 0,
+        }}
+        src="https://www.canva.com/design/DAGVtQdc1Cs/PZpq0kmyN5AoDOofgzBGfQ/view?embed"
+        allow="fullscreen"
+      />
+    </div>
+  );
+};
+
+const CanvaEmbed7 = () => {
+  return (
+    <div
+      style={{
+        position: 'relative',
+        width: '100%',
+        height: 0,
+        paddingTop: '56.2500%',
+        paddingBottom: 0,
+        boxShadow: '0 2px 8px 0 rgba(63,69,81,0.16)',
+        marginTop: '1.6em',
+        marginBottom: '0.9em',
+        overflow: 'hidden',
+        borderRadius: '8px',
+        willChange: 'transform',
+      }}
+    >
+      <iframe
+        loading="lazy"
+        style={{
+          position: 'absolute',
+          width: '100%',
+          height: '100%',
+          top: 0,
+          left: 0,
+          border: 'none',
+          padding: 0,
+          margin: 0,
+        }}
+        src="https://www.canva.com/design/DAGPJarR9hA/n6Hez9tMmyH9ZM731uRO9g/view?embed"
+        allow="fullscreen"
+      />
+    </div>
+  );
+};
+
+const CanvaEmbed8 = () => {
+  return (
+    <div
+      style={{
+        position: 'relative',
+        width: '100%',
+        height: 0,
+        paddingTop: '56.2500%',
+        paddingBottom: 0,
+        boxShadow: '0 2px 8px 0 rgba(63,69,81,0.16)',
+        marginTop: '1.6em',
+        marginBottom: '0.9em',
+        overflow: 'hidden',
+        borderRadius: '8px',
+        willChange: 'transform',
+      }}
+    >
+      <iframe
+        loading="lazy"
+        style={{
+          position: 'absolute',
+          width: '100%',
+          height: '100%',
+          top: 0,
+          left: 0,
+          border: 'none',
+          padding: 0,
+          margin: 0,
+        }}
+        src="https://www.canva.com/design/DAGVDoJits0/g7JaNRBp5vHuZU1e3RTPaw/view?embed"
+        allow="fullscreen"
+      />
+    </div>
+  );
+};
+
+
+
 const Ciencias = () => {
   const navigate = useNavigate();
   const [trimestre, setTrimestre] = useState(1); 
@@ -256,16 +366,30 @@ const Ciencias = () => {
         <>
         <div className="cardAtividade">
             <CanvaEmbed5 />
-            <h2 className="tituloAtividade">Desequilibrios ambientais</h2><p className="descricaoAtividade">Na aula pesquisamos sobre os desastres ambientais, aprofundando mais em gestão de residuos sólidos</p>
-            <p className="descricaoAtividade"></p><p className="descricaoAtividade">Opinião: Foi interessante entender cada problema de uma forma mais aprofundanda.</p><p className='descricaoAtividade'>Habilidades: C5- H27, H28</p>
+            <h2 className="tituloAtividade">Desequilibrios ambientais</h2><p className="descricaoAtividade">Na aula pesquisamos sobre os desastres ambientais, aprofundando mais em gestão de residuos sólidos.</p>
+            <p className="descricaoAtividade"></p><p className="descricaoAtividade">Opinião: Foi interessante entender cada problema de uma forma mais aprofundanda.</p><p className='descricaoAtividade'>Habilidades: C5 - H27, H28</p>
             <button className="abrirAtividade" onClick={() => window.open('https://www.canva.com/design/DAGQdZxhyes/jZLFE1QCRy6KdKPTHSvfpQ/edit?utm_content=DAGQdZxhyes&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton')}>Apresentação</button>
           </div>
 
           <div className="cardAtividade">
-            <CanvaEmbed5 />
-            <h2 className="tituloAtividade">Desequilibrios ambientais</h2><p className="descricaoAtividade">Na aula pesquisamos sobre os desastres ambientais, aprofundando mais em gestão de residuos sólidos</p>
-            <p className="descricaoAtividade"></p><p className="descricaoAtividade">Opinião: Foi interessante entender cada problema de uma forma mais aprofundanda.</p><p className='descricaoAtividade'>Habilidades: C5- H27, H28</p>
-            <button className="abrirAtividade" onClick={() => window.open('https://www.canva.com/design/DAGAtsW06KI/UZ34dVqiHYT8xlKFlxdLLw/edit?utm_content=DAGAtsW06KI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton')}>Apresentação</button>
+            <CanvaEmbed6 />
+            <h2 className="tituloAtividade">Plano expansão de energia</h2><p className="descricaoAtividade">Na aula tivemos que criar um plano para expandir a energia da região sul, escolhendo dois tipos diferentes de energia e explicando elas, depois apresentamos para a turma.</p>
+            <p className="descricaoAtividade"></p><p className="descricaoAtividade">Opinião: Foi uma atividade mais complexa já que além de analisar quais usar tivemos também que calcular o preço e a energia gerada mas no final foi legal de fazer.</p><p className='descricaoAtividade'>Habilidades: C6 - H34, H35 e H36.</p>
+            <button className="abrirAtividade" onClick={() => window.open('https://www.canva.com/design/DAGVtQdc1Cs/sRv6UgAD26hf_UrVwLiuOQ/edit?utm_content=DAGVtQdc1Cs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton')}>Apresentação</button>
+          </div>
+
+          <div className="cardAtividade">
+            <CanvaEmbed7 />
+            <h2 className="tituloAtividade">Enriquecimento do urânio</h2><p className="descricaoAtividade">Na aula tivemos que fazer uma apresentação do enriquecimento do urânio e o enriquecimento no Brasil.</p>
+            <p className="descricaoAtividade"></p><p className="descricaoAtividade">Opinião: Foi legal conhecer melhor como o processo do enriquecimento do urânio acontece.</p><p className='descricaoAtividade'>Habilidades: C5 - H24, H25, H26, H27 e H28.</p>
+            <button className="abrirAtividade" onClick={() => window.open('https://www.canva.com/design/DAGPJarR9hA/Ucy5vSEgK7Q2jO09xGrOtg/edit?utm_content=DAGPJarR9hA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton')}>Apresentação</button>
+          </div>
+
+          <div className="cardAtividade">
+            <CanvaEmbed8 />
+            <h2 className="tituloAtividade">Dicionário ecologico</h2><p className="descricaoAtividade">Como atividade nós tivemos que criar um dicionário com termos ecologicos, o conceito, significado, aplicação e duas fotos para representar.</p>
+            <p className="descricaoAtividade"></p><p className="descricaoAtividade">Opinião: A atividade foi trabalhosa mas legal.</p><p className='descricaoAtividade'></p>
+            <button className="abrirAtividade" onClick={() => window.open('https://www.canva.com/design/DAGVDoJits0/LCNEdpAWJUwN8ghzaSCDeg/edit?utm_content=DAGVDoJits0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton')}>Apresentação</button>
           </div>
         </>
       );
