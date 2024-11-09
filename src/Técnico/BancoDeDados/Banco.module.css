@@ -49,6 +49,12 @@ body {
     background-color: #000000; 
   }
   
+  .NA{
+    color: #ffffff;
+    margin-top: 6%;
+    font-size: 3em;
+  }
+
   .Titulo {
     color: #fff;
     font-size: 3em;

@@ -1,7 +1,8 @@
 import  { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../../../src/pages/CssPages/Atividades.css';
-import Api from '../../../src/pages/imagensPages/ApiGithub.png'
+import styles from '../BancoDeDados/Banco.module.css'
+import Atividade from '../../pages/imagensPages/bancoAlunos.png'
 
 const CanvaEmbed1 = () => {
   return (
@@ -32,13 +33,12 @@ const CanvaEmbed1 = () => {
           padding: 0,
           margin: 0,
         }}
-        src="https://www.canva.com/design/DAGAtsW06KI/KtnvV-_JUdsJp1e_rmuPFw/view?embed"
+        src="https://www.canva.com/design/DAGMYBZCQe8/dPrWiU-OciA8tmPm6Yf2eg/view?embed"
         allow="fullscreen"
       />
     </div>
   );
 };
-
 
 
 
@@ -51,18 +51,25 @@ const Banco = () => {
     if (trimestre === 1) {
       return (
         <>
-         <div className="cardAtividade">
-            <img className="FileAtividade" src={Api} alt="Meme Evolução" style={{width: '100%', height:'100%'}}/>
-            <h2 className="tituloAtividade">Api Github</h2>
-            <p className="descricaoAtividade">Na aula foi pedido para fazer uma API que busque o perfil do github através do nome do perfil</p><p className="descricaoAtividade">Opinião: Foi bem interessante essa atividade, gostei bastante de conseguir buscar meu perfil apenas pelo nome.</p><p className='descricaoAtividade'>Habilidades:  H3, H4, H5, H6, H9 e H10</p>
-            <button className="abrirAtividade" onClick={() => window.open(Api, '_blank')}>Meme</button>
-          </div>
+        <h1 className={styles.NA}>Não houve atividades de banco de dados no 1° trimestre</h1>
         </>
       );
     } else if (trimestre === 2) {
       return (
         <>
-          
+          <div className="cardAtividade">
+          <img className="FileAtividade" src={Atividade} alt="Meme Evolução" style={{width: '100%', height:'100%'}}/>
+            <h2 className="tituloAtividade">Lista de Exercícios - Modelo Lógico</h2>
+            <p className="descricaoAtividade">Tivemos uma atividade onde tivemos que fazer alguns exercícios de modelos lógicos.</p><p className="descricaoAtividade">Opinião: Essa lista foi boa de fazer porque ajuda a fixar os conceitos.</p><p className='descricaoAtividade'>Habilidades: H1, H2</p>
+            <button className="abrirAtividade" onClick={() => window.open('https://docs.google.com/document/d/1ylBAHTK18ku-x3cTmZF0ZjV3tGJM-C4CJ92Z-IW_cUY/edit?usp=sharing')}>Lista</button>
+          </div>
+
+          <div className="cardAtividade">
+            <CanvaEmbed1 />
+            <h2 className="tituloAtividade">modelagem - consultório médico</h2>
+            <p className="descricaoAtividade">Na atividade, tivemos que pesquisar algumas informações sobre Api's, alguns tipos, verbos HTTP, etc.</p><p className="descricaoAtividade">Opinião: Foi muito bom fazer esse trabalho porque ajudou a fixar o conteúdo para a prova.</p><p className='descricaoAtividade'>Habilidades: H1, H2, H3</p>
+            <button className="abrirAtividade" onClick={() => window.open('https://www.canva.com/design/DAGMYBZCQe8/dPrWiU-OciA8tmPm6Yf2eg/view?utm_content=DAGMYBZCQe8&utm_campaign=designshare&utm_medium=embeds&utm_source=link')}>Apresentação</button>
+          </div>
         </>
       );
     } else if (trimestre === 3) {
@@ -78,7 +85,7 @@ const Banco = () => {
   return (
     <div>
       <div className="pagina-wrapper">
-        <button className='Voltar' onClick={() => navigate('/areas', { replace: true })}>Voltar</button>
+        <button className='Voltar' onClick={() => navigate('/tecnico', { replace: true })}>Voltar</button>
         <h1 className='Titulo'>Banco de dados</h1>
      
         

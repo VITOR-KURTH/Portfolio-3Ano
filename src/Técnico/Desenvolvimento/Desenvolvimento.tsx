@@ -55,14 +55,14 @@ const Desenvolvimento = () => {
             <img className="FileAtividade" src={Api} alt="Meme Evolução" style={{width: '100%', height:'100%'}}/>
             <h2 className="tituloAtividade">Api Github</h2>
             <p className="descricaoAtividade">Na aula foi pedido para fazer uma API que busque o perfil do github através do nome do perfil.</p><p className="descricaoAtividade">Opinião: Foi bem interessante essa atividade, gostei bastante de conseguir buscar meu perfil apenas pelo nome.</p><p className='descricaoAtividade'>Habilidades: H3, H4, H5, H6, H9 e H10</p>
-            <button className="abrirAtividade" onClick={() => window.open(Api, '_blank')}>Api</button>
+            <button className="abrirAtividade" onClick={() => window.open('https://github.com/VITOR-KURTH/API-GITHUB.git')}>Rep. Api</button>
           </div>
 
           <div className="cardAtividade">
             <img className="FileAtividade" src={Horas} alt="Meme Evolução" style={{width: '100%', height:'100%'}}/>
             <h2 className="tituloAtividade">Calculadora de horas</h2>
             <p className="descricaoAtividade">Na aula fizemos uma Calculadora de horas utilizando react.</p><p className="descricaoAtividade">Opinião: Foi bem legal a atividade, gostei bastante de entender como fazer essa calculadora.</p><p className='descricaoAtividade'>Habilidades: H3, H4, H5, H6, H9 e H10</p>
-            <button className="abrirAtividade" onClick={() => window.open(Horas, '_blank')}>Calculadora</button>
+            <button className="abrirAtividade" onClick={() => window.open('https://github.com/VITOR-KURTH/Calculadora-de-horas-3B.git')}>Rep. Calculadora</button>
           </div>
 
           <div className="cardAtividade">
@@ -82,7 +82,7 @@ const Desenvolvimento = () => {
             <img className="FileAtividade" src={Biblioteca} alt="Meme Evolução" style={{width: '100%', height:'100%'}}/>
             <h2 className="tituloAtividade">Projeto biblioteca</h2>
             <p className="descricaoAtividade">Durante algumas aulas nós desenvolvemos um projeto java para uma biblioteca, junto do banco de dados e um diagrama de classe.</p><p className="descricaoAtividade">Opinião: Foi uma atividade longa de fazer mas abordou muitos conteúdos diversos, apesar do trabalho extenso foi bem legal.</p><p className='descricaoAtividade'></p>
-            <button className="abrirAtividade" onClick={() => window.open(Biblioteca, '_blank')}>Down. projeto biblioteca</button>
+            <button className="abrirAtividade" onClick={() => window.open('https://github.com/VITOR-KURTH/Projeto-Biblioteca.git')}>Rep. projeto biblioteca</button>
           </div>
         </>
       );
