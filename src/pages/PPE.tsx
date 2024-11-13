@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import './CssPages/PPE.css'
 import Navbar from '../Components/Navbar/Navbar';
 import Certificado from '../pages/imagensPages/certificadoMec.pdf'

@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import './CssPages/Técnico.css';
 import CodeSpaces from '../Components/CodeSpace/CodeSpaces';
 import Navbar from '../Components/Navbar/Navbar';

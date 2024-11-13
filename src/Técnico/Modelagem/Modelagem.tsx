@@ -1,8 +1,7 @@
 import  { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../../../src/pages/CssPages/Atividades.css';
-import styles from '../BancoDeDados/Banco.module.css'
-import Atividade from '../../pages/imagensPages/bancoAlunos.png'
+
 
 const CanvaEmbed1 = () => {
   return (

@@ -10,7 +10,7 @@ function Home() {
 
   const [showHabilidades, setShowHabilidades] = useState(false);
 
-  const [buttonText, setButtonText] = useState<string>('Habilidades');
+  const [, setButtonText] = useState<string>('Habilidades');
 
   const habilidadesText = (
     <div>
