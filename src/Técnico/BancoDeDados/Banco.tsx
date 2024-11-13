@@ -71,6 +71,14 @@ const Banco = () => {
             <p className="descricaoAtividade"> Na atividade tivemos que desenvolver dois modelos, um conceitual e um lógico.</p><p className="descricaoAtividade">Opinião:  Essa atividade tivemos que aplicar tudo que aprendemos então me ajudou a ver no que eu preciso melhorar e aperfeiçoar.</p><p className='descricaoAtividade'>Habilidades: H1, H2, H3</p>
             <button className="abrirAtividade" onClick={() => window.open('https://www.canva.com/design/DAGMYBZCQe8/dPrWiU-OciA8tmPm6Yf2eg/view?utm_content=DAGMYBZCQe8&utm_campaign=designshare&utm_medium=embeds&utm_source=link')}>Apresentação</button>
           </div>
+
+          <div className="cardAtividade">
+          <iframe src="https://docs.google.com/document/d/e/2PACX-1vRwBtKDm3qTiBIhGTj22WHVscQmXOsYIQ1_8lB-c00hJ7FmjvyAXOcr0TgN9R60MfsoLYVygB-DAqeZ/pub?embedded=true"></iframe>
+            <h2 className="tituloAtividade">Normalização de dados</h2>
+            <p className="descricaoAtividade"> Na atividade tivemos que pesquisar o que é normalização de dados e entender melhor como ela funciona.</p><p className="descricaoAtividade">Opinião: Foi bacana porque me ajudou a entender a importancia da normalização de dados.</p><p className='descricaoAtividade'>Habilidades: H3</p>
+            <button className="abrirAtividade" onClick={() => window.open('https://www.canva.com/design/DAGMYBZCQe8/dPrWiU-OciA8tmPm6Yf2eg/view?utm_content=DAGMYBZCQe8&utm_campaign=designshare&utm_medium=embeds&utm_source=link')}>Apresentação</button>
+          </div>
+        
         </>
       );
     } else if (trimestre === 3) {

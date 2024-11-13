@@ -68,7 +68,7 @@ const CanvaEmbed2 = () => {
           padding: 0,
           margin: 0,
         }}
-        src="https://www.canva.com/design/DAGVsvdACWI/vnQqvrJH4LOh1cWjllOfuw/view?embed"
+        src="https://www.canva.com/design/DAGVzoK3UMs/NmHtcu-BrAFCtjbgnLwgpA/view?embed"
         allow="fullscreen"
       />
     </div>
@@ -117,8 +117,8 @@ const Matematica = () => {
         <div className="cardAtividade">
            <CanvaEmbed2/>
             <h2 className="tituloAtividade">Poliedros de Platão</h2>
-            <p className="descricaoAtividade">Na aula estudamos e preparamos uma apresentação sobre os 5 poliedros de platão, explicando suas popriedades e recriando um dos poliedros em 3D.</p><p className="descricaoAtividade">Opinião: Foi legal entender melhor cada um dos poliedros e apresentar para a turma.</p><p className='descricaoAtividade'></p>
-            <button className="abrirAtividade" onClick={() => window.open('https://www.canva.com/design/DAGKMSe26pA/Xosj60UxceTBpDokvQQgWw/edit?utm_content=DAGKMSe26pA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton')}>apresentação</button>
+            <p className="descricaoAtividade">Na aula tivemos que criar 3 poliedros de platão e construir eles com palitos de churrasco e jujuba.</p><p className="descricaoAtividade">Opinião: Foi uma das atividades mais legais do ano, foi bem divertido de participar.</p><p className='descricaoAtividade'></p>
+            <button className="abrirAtividade" onClick={() => window.open('https://www.canva.com/design/DAGVzoK3UMs/7Y-GtmnB-ye6pInVQuFrkA/view?utm_content=DAGVzoK3UMs&utm_campaign=designshare&utm_medium=link&utm_source=editor')}>apresentação</button>
           </div>
           
         </>

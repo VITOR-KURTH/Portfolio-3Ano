@@ -9,7 +9,7 @@ const PPE = () => {
     <div className="container">
      
      <Navbar/>
-     <div className="cardAtividade">
+     <div className="cardPPE">
      <h2 className="tituloAtividade">Certificado MEC</h2>
 
           <embed className="FileAtividade" src={Certificado}  style={{width: '100%', height:'80%'}}/>
