@@ -76,7 +76,7 @@ const Banco = () => {
           <iframe src="https://docs.google.com/document/d/e/2PACX-1vRwBtKDm3qTiBIhGTj22WHVscQmXOsYIQ1_8lB-c00hJ7FmjvyAXOcr0TgN9R60MfsoLYVygB-DAqeZ/pub?embedded=true" style={{width: '100%', height:'100%'}}></iframe>
             <h2 className="tituloAtividade">Normalização de dados</h2>
             <p className="descricaoAtividade"> Na atividade tivemos que pesquisar o que é normalização de dados e entender melhor como ela funciona.</p><p className="descricaoAtividade">Opinião: Foi bacana porque me ajudou a entender a importancia da normalização de dados.</p><p className='descricaoAtividade'>Habilidades: H3</p>
-            <button className="abrirAtividade" onClick={() => window.open('https://www.canva.com/design/DAGMYBZCQe8/dPrWiU-OciA8tmPm6Yf2eg/view?utm_content=DAGMYBZCQe8&utm_campaign=designshare&utm_medium=embeds&utm_source=link')}>Apresentação</button>
+            <button className="abrirAtividade" onClick={() => window.open('https://docs.google.com/document/d/1pw-WlSq9g5UMJF36LSFFCKJm7zc_FjBB27CNeNr1hH0/edit?usp=sharing')}>Docs.</button>
           </div>
         
         </>

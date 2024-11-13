@@ -1,6 +1,7 @@
 import  { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../../../src/pages/CssPages/Atividades.css';
+import styles from '../BancoDeDados/Banco.module.css';
 
 
 const CanvaEmbed1 = () => {
@@ -83,6 +84,7 @@ const Modelagem = () => {
     } else if (trimestre === 3) {
       return (
         <>
+        <h1 className={styles.NA}>Não houve atividades de modelagem de sistemas no 3° trimestre</h1>
 
         </>
       );

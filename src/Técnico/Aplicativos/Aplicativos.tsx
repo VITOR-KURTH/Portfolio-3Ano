@@ -19,7 +19,7 @@ const Aplicativos = () => {
     } else if (trimestre === 2) {
       return (
         <>
-          <h1 className={styles.NA}>Não houve atividades de programação de aplicativos no 1° trimestre</h1>
+          <h1 className={styles.NA}>Não houve atividades de programação de aplicativos no 2° trimestre</h1>
 
         </>
       );

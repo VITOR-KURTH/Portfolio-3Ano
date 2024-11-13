@@ -351,7 +351,7 @@ const Ciencias = () => {
            <CanvaEmbed4 />
             <h2 className="tituloAtividade">Auroras Polares</h2>
             <p className="descricaoAtividade">Durante a aula nós aprendemos um pouco sobre imãs e magnetismo, além de fazer a atividade, também vimos como funciona na prática, com uma caixa com pó magnético e imãs.</p><p className="descricaoAtividade">Opinião: Esse cartaz também foi bem legal de fazer, já que é um conteúdo muito interessante.</p><p className='descricaoAtividade'>Habilidades: C3 - H15, H18</p>
-            <button className="abrirAtividade" onClick={() => window.open('https://www.canva.com/design/DAGJ5hICGUU/Khmxj99OoTHG3MD3zFyYqw/edit?utm_content=DAGJ5hICGUU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton')}>Cartaz</button>
+            <button className="abrirAtividade" onClick={() => window.open('https://www.canva.com/design/DAGH7hYF7Ec/0ZBScSY15fJ8cFdjXGn77Q/view?utm_content=DAGH7hYF7Ec&utm_campaign=designshare&utm_medium=link&utm_source=editor')}>Apresentação</button>
           </div>
           <div className="cardAtividade">
           <img className="FileAtividade" src={Mapa} style={{ width: '100%', height: '100%' }} />

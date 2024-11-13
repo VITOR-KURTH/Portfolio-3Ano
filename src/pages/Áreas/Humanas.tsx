@@ -176,7 +176,7 @@ const Humanas = () => {
           <iframe src="https://docs.google.com/document/d/e/2PACX-1vS157y_UqMpm5sSqE7U9JtaB9uR-bqwQy6StzSrLT7CLpBDzEqOWprcooZZ21DhbeG6T0graAY5L1zm/pub?embedded=true" width={730} height={300}></iframe>
             <h2 className="tituloAtividade">Análise da pintura "Progresso Americano" e "gravura do início do século XX"</h2>
             <p className="descricaoAtividade">Na aula nós assistimos um vídeo sobre as leis Jim Crow, e fizemos também dois documentos analisando a pintura "Progresso Americano" e a gravura do início do século XX.</p><p className="descricaoAtividade">Opinião: Analisar as pinturas para entendê-las e assistir o vídeo foi interessante porque entendi mais sobre os assuntos.</p><p className='descricaoAtividade'>Habilidades:  C3 - H15, H16</p>
-            <button className="abrirAtividade" onClick={() => window.open('https://docs.google.com/document/d/1lsL4PH5CHEIY_a_VlgWkOl-GVQrZCDOct8vKuJn25gk/edit?usp=sharing')}>Doc. Progesso Americano</button>
+            <button className="abrirAtividade" onClick={() => window.open('https://docs.google.com/document/d/e/2PACX-1vS157y_UqMpm5sSqE7U9JtaB9uR-bqwQy6StzSrLT7CLpBDzEqOWprcooZZ21DhbeG6T0graAY5L1zm/pub?embedded=true')}>Doc. Progesso Americano</button>
           </div>
         </>
       );
@@ -193,7 +193,7 @@ const Humanas = () => {
           <CanvaEmbed3/>
             <h2 className="tituloAtividade">Atividade Journal du peuple</h2>
             <p className="descricaoAtividade">Na aula vimos alguns jornais com notícias dos anos 20 e entendemos um pouco quais eram os principais assuntos da época, depois montamos um jornal de algum páis da nossa escolha e abordando algum assunto da época.</p><p className="descricaoAtividade">Opinião: Essa atividade foi muito legal, gostei bastante de imaginar como eram retratadas as notícias e propagandas presentes nos jornais.</p><p className='descricaoAtividade'>Habilidades: C2 - H10, C6 - H39</p>
-            <button className="abrirAtividade" onClick={() => window.open('https://docs.google.com/document/d/1H83lesjKrqMdHWbUydaJSHiOjlAUpotYqAS_ckndcmY/edit?usp=sharing')}>Docs. Filme</button>
+            <button className="abrirAtividade" onClick={() => window.open('https://www.canva.com/design/DAGB01Gizv0/gk8budsBzVdBY80PgHmBuQ/view?utm_content=DAGB01Gizv0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hd0cbd4a4c0')}>Jornal</button>
           </div>
          
         </>
