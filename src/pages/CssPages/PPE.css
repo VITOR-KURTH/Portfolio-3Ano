@@ -1,0 +1,17 @@
+.cardAtividade {
+    background: rgba(255, 255, 255, 0.05); /* frosted glass background */
+    backdrop-filter: blur(15px); /* blur the background */
+    -webkit-backdrop-filter: blur(15px); /* for Safari */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    height: 500px;
+    width: 800px;
+   padding: 40px;
+   align-items: center;
+   text-align: center;
+  }
+
+  .abrirAtividade{
+    margin-top: 5%;
+    align-items: center;
+
+  }

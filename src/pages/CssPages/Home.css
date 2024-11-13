@@ -30,6 +30,15 @@ body {
   opacity: 0.5;  
 }
 
+.botoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Ajuste o valor conforme necessário */
+  width: 500px;
+  height: 100px;
+}
+
 
 .habilidades {
   color: rgb(0, 0, 0);
@@ -37,6 +46,7 @@ body {
   font-size: 0.9em;
   margin-top: 3%;
   padding: 3%;
+  gap: 50px;
   background-color: rgb(255, 255, 255); 
   border: rgba(255, 255, 255, 0.053);
   border-radius: 1.2em;
@@ -63,6 +73,8 @@ body {
   transform: scale(1.1); 
   transition: 0.2s ease transform;
 }
+
+
 
 button {
   position: relative;
