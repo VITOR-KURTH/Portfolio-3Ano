@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import '../../../src/pages/CssPages/Atividades.css';
 import styles from '../BancoDeDados/Banco.module.css';
 import Atividade from '../../pages/imagensPages/bancoAlunos.png';
-import JoinAtividade from '../../pages/imagensPages/JOIN.png'
+import JoinAtividade from '../../pages/imagensPages/atividadejoin.png'
 
 const CanvaEmbed1 = () => {
   return (
