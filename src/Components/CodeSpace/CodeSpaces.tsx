@@ -96,6 +96,49 @@ const CodeSpaces = () => {
                         </button>
                     </div>
                 </div>
+                <div className="terminal-loader">
+                    <div className="terminal-header">
+                        <div className="terminal-controls">
+                            <div className="control close"></div>
+                            <div className="control minimize"></div>
+                            <div className="control maximize"></div>
+                        </div>
+                        <div className="terminal-title">App.js</div>
+                    </div>
+                    <div className="contentCode">
+                    <div className="text">
+    <span className="function">app.get</span>(<span className="string">"/"</span>, (<span className="variable">req</span>, <span className="variable">res</span>) 
+    ={`>`} <span className="variable">res</span>.<span className="function">send</span>(<span className="string">"Olá, mundo!"</span>));
+</div>
+
+                        <button className="navigate-button" onClick={() => goToPage('/Modelagem')}>
+                            Ir para Programação de aplicativos
+                        </button>
+                    </div>
+                </div>
+                <div className="terminal-loader">
+                    <div className="terminal-header">
+                        <div className="terminal-controls">
+                            <div className="control close"></div>
+                            <div className="control minimize"></div>
+                            <div className="control maximize"></div>
+                        </div>
+                        <div className="terminal-title">AppTest.js</div>
+                    </div>
+                    <div className="contentCode">
+                    <div className="text">
+    <span className="keyword">it</span>(<span className="string">"deve retornar status 200"</span>, () ={`>`} {'{'}
+        <br />
+        &nbsp;&nbsp;&nbsp;<span className="keyword">expect</span>(<span className="variable">response.status</span>).<span className="function">toBe</span>(200);
+    {'}'});
+</div>
+                        <button className="navigate-button" onClick={() => goToPage('/Modelagem')}>
+                            Ir para Testes de Sistemas
+                        </button>
+                    </div>
+                </div>
+     
+
             </div>
         </div>
     );

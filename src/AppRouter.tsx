@@ -12,6 +12,8 @@ import Banco from './Técnico/BancoDeDados/Banco';
 import Desenvolvimento from './Técnico/Desenvolvimento/Desenvolvimento';
 import Modelagem from './Técnico/Modelagem/Modelagem';
 import Implantação from './Técnico/Implantação/Implantação';
+import Testes from './Técnico/Testes/testes';
+import Aplicativos from './Técnico/Aplicativos/Aplicativos'
 
 const AppRouter = () => {
   return (
@@ -30,6 +32,8 @@ const AppRouter = () => {
         <Route path="/Desenvolvimento" element={<Desenvolvimento />} />
         <Route path="/Modelagem" element={<Modelagem />} />
         <Route path="/Implantação" element={<Implantação />} />
+        <Route path="/Testes" element={<Testes />} />
+        <Route path="/Aplicativos" element={<Aplicativos />} />
       </Routes>
     </BrowserRouter>
   );
