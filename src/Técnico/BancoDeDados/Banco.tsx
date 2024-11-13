@@ -1,8 +1,9 @@
 import  { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../../../src/pages/CssPages/Atividades.css';
-import styles from '../BancoDeDados/Banco.module.css'
-import Atividade from '../../pages/imagensPages/bancoAlunos.png'
+import styles from '../BancoDeDados/Banco.module.css';
+import Atividade from '../../pages/imagensPages/bancoAlunos.png';
+import Join from '../../pages/imagensPages/JOIN.png'
 
 const CanvaEmbed1 = () => {
   return (
@@ -67,7 +68,7 @@ const Banco = () => {
           <div className="cardAtividade">
             <CanvaEmbed1 />
             <h2 className="tituloAtividade">modelagem - consultório médico</h2>
-            <p className="descricaoAtividade">Na atividade, tivemos que pesquisar algumas informações sobre Api's, alguns tipos, verbos HTTP, etc.</p><p className="descricaoAtividade">Opinião: Foi muito bom fazer esse trabalho porque ajudou a fixar o conteúdo para a prova.</p><p className='descricaoAtividade'>Habilidades: H1, H2, H3</p>
+            <p className="descricaoAtividade"> Na atividade tivemos que desenvolver dois modelos, um conceitual e um lógico.</p><p className="descricaoAtividade">Opinião:  Essa atividade tivemos que aplicar tudo que aprendemos então me ajudou a ver no que eu preciso melhorar e aperfeiçoar.</p><p className='descricaoAtividade'>Habilidades: H1, H2, H3</p>
             <button className="abrirAtividade" onClick={() => window.open('https://www.canva.com/design/DAGMYBZCQe8/dPrWiU-OciA8tmPm6Yf2eg/view?utm_content=DAGMYBZCQe8&utm_campaign=designshare&utm_medium=embeds&utm_source=link')}>Apresentação</button>
           </div>
         </>
@@ -76,6 +77,19 @@ const Banco = () => {
       return (
         <>
      
+     <div className="cardAtividade">
+     <iframe src="https://docs.google.com/document/d/e/2PACX-1vT6ryNAdhXGs1a1pkO83Ziy4CQ4nsg2Pf4SXkOZdfkjACL7-DtYCHLwRWJ8sjQiMnEKQHILrw2thBN0/pub?embedded=true" style={{width: '100%', height:'100%'}}></iframe>
+            <h2 className="tituloAtividade">Banco de Dados Biblioteca</h2>
+            <p className="descricaoAtividade">Na aula tivemos que criar três tabelas e usar alguns comandos de busca ou mudar alguns dados.</p><p className="descricaoAtividade">Opinião: A atividade me ajudou a entender melhor como cada comando funciona e como posso usar eles.</p><p className='descricaoAtividade'>Habilidades: H4</p>
+            <button className="abrirAtividade" onClick={() => window.open('https://docs.google.com/document/d/1hbzizOiQP5A0lfgA2CyLrTM75ItQiYpiOJxH6tN3VbQ/edit?usp=sharing')}>Docs.</button>
+          </div>
+
+          <div className="cardAtividade">
+          <img className="FileAtividade" src={Join} alt="Meme Evolução" style={{width: '100%', height:'100%'}}/>
+            <h2 className="tituloAtividade">Left e Right JOIN no PgAdmin</h2>
+            <p className="descricaoAtividade">Na aula tivemos que usar os comandos JOIN para consultar alguns dados das tabelas criadas</p><p className="descricaoAtividade">Opinião: Com a atividade consegui entender melhor como funciona os comandos JOIN como o RIGHT JOIN, INNER JOIN e o LEFT JOIN, então gostei bastante.</p><p className='descricaoAtividade'>Habilidades: H4, H5</p>
+            <button className="abrirAtividade" onClick={() => window.open('https://drive.google.com/file/d/1U0OMLgNbF48I0_8aCxWI9TW8RIGxxSvI/view?usp=sharing')}>Arquivo sql</button>
+          </div>
         </>
       );
     }

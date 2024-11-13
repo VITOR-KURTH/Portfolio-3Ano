@@ -1,5 +1,6 @@
 import  { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import styles from '../BancoDeDados/Banco.module.css'
 import '../../../src/pages/CssPages/Atividades.css';
 import Api from '../../../src/pages/imagensPages/ApiGithub.png'
 import Horas from '../../../src/pages/imagensPages/calcHoras.png'
@@ -89,7 +90,7 @@ const Desenvolvimento = () => {
     } else if (trimestre === 3) {
       return (
         <>
-     
+     <h1 className={styles.NA}>Não houve atividades de desenvolvimento de sistemas no 3° trimestre</h1>
         </>
       );
     }

@@ -2,7 +2,7 @@ import  { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../../../src/pages/CssPages/Atividades.css';
 import styles from '../BancoDeDados/Banco.module.css'
-import Atividade from '../../pages/imagensPages/bancoAlunos.png'
+
 
 const CanvaEmbed1 = () => {
   return (
@@ -62,15 +62,14 @@ const Implantação = () => {
     } else if (trimestre === 2) {
       return (
         <>
-        
+             <h1 className={styles.NA}>Não houve atividades de implantação de sistemas no 2° trimestre</h1>
 
-          
         </>
       );
     } else if (trimestre === 3) {
       return (
         <>
-     
+          <h1 className={styles.NA}>Não houve atividades de implantação de sistemas no 3° trimestre</h1>
         </>
       );
     }
