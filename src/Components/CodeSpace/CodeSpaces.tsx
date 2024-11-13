@@ -111,7 +111,7 @@ const CodeSpaces = () => {
     ={`>`} <span className="variable">res</span>.<span className="function">send</span>(<span className="string">"Olá, mundo!"</span>));
 </div>
 
-                        <button className="navigate-button" onClick={() => goToPage('/Modelagem')}>
+                        <button className="navigate-button" onClick={() => goToPage('/Aplicativos')}>
                             Ir para Programação de aplicativos
                         </button>
                     </div>
@@ -132,7 +132,7 @@ const CodeSpaces = () => {
         &nbsp;&nbsp;&nbsp;<span className="keyword">expect</span>(<span className="variable">response.status</span>).<span className="function">toBe</span>(200);
     {'}'});
 </div>
-                        <button className="navigate-button" onClick={() => goToPage('/Modelagem')}>
+                        <button className="navigate-button" onClick={() => goToPage('/Testes')}>
                             Ir para Testes de Sistemas
                         </button>
                     </div>

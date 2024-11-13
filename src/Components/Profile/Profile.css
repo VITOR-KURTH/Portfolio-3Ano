@@ -1,0 +1,72 @@
+/* Container geral */
+.profile-container {
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+   width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Títulos */
+  .profile-container h1,
+  .profile-container h2 {
+    text-align: center;
+  }
+  
+  .profile-container h1 {
+    font-size: 0.8em;
+    margin-bottom: 0.5em;
+  }
+  
+  .profile-container h2 {
+    font-size: 0.8em;
+    
+  }
+  
+  /* Linha horizontal */
+  hr {
+    border-color: white;
+    border-width: 1px;
+    margin: 1em 0;
+  }
+  
+
+  
+  /* Seção de imagens e ícones */
+  .badge-container {
+    text-align: center;
+   
+  }
+  
+  .badge-container img {
+    height: 35px;
+    margin: 0 15px;
+  }
+  
+  /* Seção de estatísticas */
+  .stats-container {
+    text-align: center;
+  
+  }
+  
+  .stats-container img {
+    height: 150px;
+    margin: 0 15px;
+  }
+  
+  /* Seção de redes sociais */
+  .social-media {
+    text-align: center;
+    
+  }
+  
+  .social-media a {
+    margin: 0 20px;
+  }
+  
+  .social-media img {
+    width: 52px;
+    height: 40px;
+  }
+  
