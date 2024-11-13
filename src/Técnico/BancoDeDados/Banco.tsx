@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import '../../../src/pages/CssPages/Atividades.css';
 import styles from '../BancoDeDados/Banco.module.css';
 import Atividade from '../../pages/imagensPages/bancoAlunos.png';
-import Join from '../../pages/imagensPages/JOIN.png'
+import JoinAtividade from '../../pages/imagensPages/JOIN.png'
 
 const CanvaEmbed1 = () => {
   return (
@@ -93,7 +93,7 @@ const Banco = () => {
           </div>
 
           <div className="cardAtividade">
-          <img className="FileAtividade" src={Join} alt="Meme Evolução" style={{width: '100%', height:'100%'}}/>
+          <img className="FileAtividade" src={JoinAtividade} alt="Meme Evolução" style={{width: '100%', height:'100%'}}/>
             <h2 className="tituloAtividade">Left e Right JOIN no PgAdmin</h2>
             <p className="descricaoAtividade">Na aula tivemos que usar os comandos JOIN para consultar alguns dados das tabelas criadas</p><p className="descricaoAtividade">Opinião: Com a atividade consegui entender melhor como funciona os comandos JOIN como o RIGHT JOIN, INNER JOIN e o LEFT JOIN, então gostei bastante.</p><p className='descricaoAtividade'>Habilidades: H4, H5</p>
             <button className="abrirAtividade" onClick={() => window.open('https://drive.google.com/file/d/1U0OMLgNbF48I0_8aCxWI9TW8RIGxxSvI/view?usp=sharing')}>Arquivo sql</button>
