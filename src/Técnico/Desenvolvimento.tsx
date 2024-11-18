@@ -1,10 +1,10 @@
 import  { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import styles from '../BancoDeDados/Banco.module.css'
-import '../../../src/pages/CssPages/Atividades.css';
-import Api from '../../../src/pages/imagensPages/ApiGithub.png'
-import Horas from '../../../src/pages/imagensPages/calcHoras.png'
-import Biblioteca from '../../pages/imagensPages/biblio (1)/Frango do G/Diagrama Classe Biblioteca.png'
+import styles from '../Técnico/Banco.module.css';
+import '../pages/CssPages/Atividades.css';
+import Api from '../pages/imagensPages/ApiGithub.png'
+import Horas from '../pages/imagensPages/calcHoras.png'
+import Biblioteca from '../pages/imagensPages/biblio (1)/Frango do G/Diagrama Classe Biblioteca.png'
 
 const CanvaEmbed1 = () => {
   return (
