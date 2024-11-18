@@ -8,12 +8,12 @@ import Ciencias from './pages/Áreas/Ciencias';
 import Matematica from './pages/Áreas/Matematica';
 import Humanas from './pages/Áreas/Humanas';
 import Linguagens from './pages/Áreas/Linguagens';
-import Banco from './Técnico/Banco';
-import Desenvolvimento from './Técnico/Desenvolvimento';
-import Modelagem from './Técnico/Modelagem';
-import Implantação from './Técnico/Implantação';
-import Testes from './Técnico/testes';
-import Aplicativos from './Técnico/Aplicativos'
+import Banco from './pages/Técnico/Banco';
+import Desenvolvimento from './pages/Técnico/Desenvolvimento';
+import Modelagem from './pages/Técnico/Modelagem';
+import Implantação from './pages/Técnico/Implantação';
+import Testes from './pages/Técnico/testes';
+import Aplicativos from './pages/Técnico/Aplicativos'
 
 const AppRouter = () => {
   return (

@@ -1,9 +1,9 @@
 import  { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import '../pages/CssPages/Atividades.css';
+import '../CssPages/Atividades.css';
 import styles from '../Técnico/Banco.module.css';
-import Express from '../pages/imagensPages/express.png'
-import Chalk from '../pages/imagensPages/chalk.png'
+import Express from '../imagensPages/express.png'
+import Chalk from '../imagensPages/chalk.png'
 
 const Aplicativos = () => {
   const navigate = useNavigate();

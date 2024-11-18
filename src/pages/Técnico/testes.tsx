@@ -1,6 +1,6 @@
 import  { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import '../pages/CssPages/Atividades.css';
+import '../CssPages/Atividades.css';
 import styles from '../Técnico/Banco.module.css';
 
 

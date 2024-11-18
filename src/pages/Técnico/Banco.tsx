@@ -1,9 +1,9 @@
 import  { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import '../pages/CssPages/Atividades.css';
+import '../CssPages/Atividades.css';
 import styles from '../Técnico/Banco.module.css';
-import Atividade from '../pages/imagensPages/bancoAlunos.png';
-import JoinAtividade from '../pages/imagensPages/atividadejoin.png'
+import Atividade from '../imagensPages/bancoAlunos.png';
+import JoinAtividade from '../imagensPages/atividadejoin.png'
 
 const CanvaEmbed1 = () => {
   return (
