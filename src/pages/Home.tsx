@@ -41,7 +41,7 @@ function Home() {
         <button className='habilidades' onClick={handleClick}>
           Mais
         </button>
-        <button className='habilidades' onClick={() => window.open(Curriculo)}>
+        <button className='habilidades' onClick={() => window.open('https://www.canva.com/design/DAGR5Tg7vXA/RBjpvsKFUe2ChrYCtDq7tw/view?utm_content=DAGR5Tg7vXA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h9fe7364bf3')}>
           Curriculo
         </button>
         </div>
