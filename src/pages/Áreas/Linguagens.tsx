@@ -2,8 +2,8 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../CssPages/Atividades.css';
 import Post from '../imagensPages/Simple-past.jpg';
-import Redacao from '../imagensPages/Redações enviadas.pdf'
-import Redacao2 from '../imagensPages/Redações enviadas2.pdf'
+import Redacao from '../imagensPages/Redações_enviadas.pdf'
+import Redacao2 from '../imagensPages/Redações_enviadas2.pdf'
 
 const CanvaEmbed1 = () => {
   return (

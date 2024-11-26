@@ -2,7 +2,7 @@ import  { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../CssPages/Atividades.css';
 import Meme from '../imagensPages/ME RECUSO A ACREDITAR QUE VIM DISSO!.png';
-import Resistores from '../imagensPages/Cópia de Atividade prática resistores.pdf';
+import Resistores from '../imagensPages/Cópia_de_Atividade_prática_resistores.pdf';
 import Revisao from '../imagensPages/Imagem do WhatsApp de 2024-04-04 à(s) 10.55.49_631aba2e.jpg';
 import Mapa from '../imagensPages/mapaMental.png';
 
