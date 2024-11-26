@@ -77,6 +77,41 @@ const CanvaEmbed2 = () => {
   );
 };
 
+const CanvaEmbed3 = () => {
+  return (
+    <div
+      style={{
+        position: 'relative',
+        width: '100%',
+        height: 0,
+        paddingTop: '56.2500%',
+        paddingBottom: 0,
+        boxShadow: '0 2px 8px 0 rgba(63,69,81,0.16)',
+        marginTop: '1.6em',
+        marginBottom: '0.9em',
+        overflow: 'hidden',
+        borderRadius: '8px',
+        willChange: 'transform',
+      }}
+    >
+      <iframe
+        loading="lazy"
+        style={{
+          position: 'absolute',
+          width: '100%',
+          height: '100%',
+          top: 0,
+          left: 0,
+          border: 'none',
+          padding: 0,
+          margin: 0,
+        }}
+        src="https://www.canva.com/design/DAGR5Tg7vXA/jUY9UE5BXrDQEdEylTC63g/view?embed"
+        allow="fullscreen"
+      />
+    </div>
+  );
+};
 
 
 const Linguagens = () => {
@@ -132,7 +167,18 @@ const Linguagens = () => {
             </p>
             <button className="abrirAtividade" onClick={() => window.open(Redacao, '_blank')}>Redação</button>
           </div>
+
+          
+         <div className="cardAtividade">
+          <CanvaEmbed3/>
+            <h2 className="tituloAtividade">Curriculo atualizado</h2>
+            <p className="descricaoAtividade"> A atividade consistia em atualizar o meu Curriculo vitae com novas informações e fazer uma versão traduzida para o ingles</p><p className="descricaoAtividade">opinião: É sempre importante manter os meus dados atualizados, além de que a versão em ingles pode me ajudar a pessoas que falam outras linguas poderem ver as minhas informações.</p><p className='descricaoAtividade'>
+            </p>
+            <button className="abrirAtividade" onClick={() => window.open('https://www.canva.com/design/DAGR5Tg7vXA/RBjpvsKFUe2ChrYCtDq7tw/view?utm_content=DAGR5Tg7vXA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h9fe7364bf3#2')}>Curriculo</button>
+          </div>
+        
         </>
+        
       );
     }
   };
