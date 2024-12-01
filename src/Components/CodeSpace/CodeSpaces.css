@@ -8,11 +8,11 @@
     display: flex;
     gap: 20px; /* Espaçamento entre os terminais na mesma linha */
     justify-content: center;
-    margin-bottom: 20px; /* Espaço entre as linhas */
+    margin-bottom: 20px; 
 }
 
 .terminal-loader {
-    width: 400px; /* Largura fixa para garantir que todos os terminais sejam do mesmo tamanho */
+    width: 350px;
     height: 200px;
     background: #1c1c1c;
     border: 1px solid #ffffff3e;

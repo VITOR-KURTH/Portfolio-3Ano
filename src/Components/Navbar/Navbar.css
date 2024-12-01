@@ -7,7 +7,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 35%;
+  width: auto;
   z-index: 1000;
   backdrop-filter: blur(0.6em); 
 
@@ -15,7 +15,7 @@ nav {
 }
 
 nav a {
-  font-size: 1.2em;
+  font-size: 1.1em;
   display: inline-block;
   text-align: center;
   color: #ffffff;

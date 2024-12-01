@@ -28,19 +28,6 @@ const Profile: React.FC = () => {
           alt="languages graph"
         />
       </div>
-
-      <h2>Minhas redes sociais 📫:</h2>
-      <div className="social-media">
-        <a href="https://www.linkedin.com/in/v%C3%ADtor-kurth/" target="_blank" rel="noopener noreferrer">
-          <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" alt="linkedin logo" />
-        </a>
-        <a href="https://www.instagram.com/vitor_kurth/" target="_blank" rel="noopener noreferrer">
-          <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" alt="instagram logo" />
-        </a>
-        <a href="https://github.com/VITOR-KURTH" target="_blank" rel="noopener noreferrer">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="Github logo" />
-        </a>
-      </div>
     </div>
   );
 };

@@ -7,6 +7,8 @@ body {
   background: radial-gradient(circle, rgb(2, 5, 23) 0%, rgba(0,0,0,1) 100%);
 }
 
+
+
 .background-home {
   background-size: cover;
   height: 100vh; /* adicionado */
@@ -24,6 +26,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 
 
