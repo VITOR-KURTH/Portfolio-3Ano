@@ -35,7 +35,7 @@ const Aplicativos = () => {
 
           <div className="cardAtividade">
           <img className="FileAtividade" src={Chalk} alt="Meme Evolução" style={{width: '100%', height:'100%'}}/>
-            <h2 className="tituloAtividade">Atividade express</h2>
+            <h2 className="tituloAtividade">Atividade Chalk</h2>
             <p className="descricaoAtividade">Na aula tivemos que fazer um site usando chalk</p><p className="descricaoAtividade">Opinião: Gostei da atividade.</p><p className='descricaoAtividade'>Habilidades: H3, H4</p>
             <button className="abrirAtividade" onClick={() => window.open('https://github.com/VITOR-KURTH/Node-e-Chalk.git')}>Repositorio Chalk</button>
           </div>
